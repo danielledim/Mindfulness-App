@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52422A38F888003B1D2F /* AdvicePage.swift */; };
+		7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52442A38F8B2003B1D2F /* VentPage.swift */; };
 		BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */; };
 		BDD82D352A377470007048F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD82D342A377470007048F2 /* ContentView.swift */; };
 		BDD82D372A377471007048F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD82D362A377471007048F2 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B6D52422A38F888003B1D2F /* AdvicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicePage.swift; sourceTree = "<group>"; };
+		7B6D52442A38F8B2003B1D2F /* VentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentPage.swift; sourceTree = "<group>"; };
 		BDD82D2F2A377470007048F2 /* Mindfulness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindfulness_AppApp.swift; sourceTree = "<group>"; };
 		BDD82D342A377470007048F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */,
 				BDD82D342A377470007048F2 /* ContentView.swift */,
+				7B6D52442A38F8B2003B1D2F /* VentPage.swift */,
+				7B6D52422A38F888003B1D2F /* AdvicePage.swift */,
 				BDD82D362A377471007048F2 /* Assets.xcassets */,
 				BDD82D382A377471007048F2 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD82D352A377470007048F2 /* ContentView.swift in Sources */,
+				7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */,
 				BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */,
+				7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
