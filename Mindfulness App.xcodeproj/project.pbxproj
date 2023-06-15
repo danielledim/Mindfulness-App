@@ -9,30 +9,18 @@
 /* Begin PBXBuildFile section */
 		7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52422A38F888003B1D2F /* AdvicePage.swift */; };
 		7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52442A38F8B2003B1D2F /* VentPage.swift */; };
-		BD9742002A3B753E003210AA /* toDoListForLesson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD9741FE2A3B753E003210AA /* toDoListForLesson.xcdatamodeld */; };
-		BD9742022A3B7594003210AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9742012A3B7594003210AA /* Persistence.swift */; };
-		BD9742042A3B75D0003210AA /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9742032A3B75D0003210AA /* ToDoItem.swift */; };
-		BD9742062A3B75DD003210AA /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9742052A3B75DD003210AA /* NewToDoView.swift */; };
-		BD9742082A3B77CA003210AA /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9742072A3B77CA003210AA /* ToDoListView.swift */; };
 		BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */; };
 		BDD82D352A377470007048F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD82D342A377470007048F2 /* ContentView.swift */; };
 		BDD82D372A377471007048F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD82D362A377471007048F2 /* Assets.xcassets */; };
-		BDD82D3A2A377471007048F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD82D392A377471007048F2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B6D52422A38F888003B1D2F /* AdvicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicePage.swift; sourceTree = "<group>"; };
 		7B6D52442A38F8B2003B1D2F /* VentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentPage.swift; sourceTree = "<group>"; };
-		BD9741FF2A3B753E003210AA /* toDoListForLesson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoListForLesson.xcdatamodel; sourceTree = "<group>"; };
-		BD9742012A3B7594003210AA /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = ../../../toDoListForLesson/toDoListForLesson/Persistence.swift; sourceTree = "<group>"; };
-		BD9742032A3B75D0003210AA /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoItem.swift; path = ../../toDoListForLesson/toDoListForLesson/ToDoItem.swift; sourceTree = "<group>"; };
-		BD9742052A3B75DD003210AA /* NewToDoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewToDoView.swift; path = ../../toDoListForLesson/toDoListForLesson/NewToDoView.swift; sourceTree = "<group>"; };
-		BD9742072A3B77CA003210AA /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		BDD82D2F2A377470007048F2 /* Mindfulness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindfulness_AppApp.swift; sourceTree = "<group>"; };
 		BDD82D342A377470007048F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD82D362A377471007048F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BDD82D392A377471007048F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +57,6 @@
 				BDD82D342A377470007048F2 /* ContentView.swift */,
 				7B6D52442A38F8B2003B1D2F /* VentPage.swift */,
 				7B6D52422A38F888003B1D2F /* AdvicePage.swift */,
-				BD9742072A3B77CA003210AA /* ToDoListView.swift */,
-				BD9742052A3B75DD003210AA /* NewToDoView.swift */,
-				BD9742032A3B75D0003210AA /* ToDoItem.swift */,
 				BDD82D362A377471007048F2 /* Assets.xcassets */,
 				BDD82D382A377471007048F2 /* Preview Content */,
 			);
@@ -81,9 +66,6 @@
 		BDD82D382A377471007048F2 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BDD82D392A377471007048F2 /* Preview Assets.xcassets */,
-				BD9742012A3B7594003210AA /* Persistence.swift */,
-				BD9741FE2A3B753E003210AA /* toDoListForLesson.xcdatamodeld */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -146,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD82D3A2A377471007048F2 /* Preview Assets.xcassets in Resources */,
 				BDD82D372A377471007048F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD82D352A377470007048F2 /* ContentView.swift in Sources */,
-				BD9742002A3B753E003210AA /* toDoListForLesson.xcdatamodeld in Sources */,
-				BD9742042A3B75D0003210AA /* ToDoItem.swift in Sources */,
-				BD9742082A3B77CA003210AA /* ToDoListView.swift in Sources */,
 				7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */,
-				BD9742022A3B7594003210AA /* Persistence.swift in Sources */,
 				BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */,
 				7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */,
-				BD9742062A3B75DD003210AA /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,20 +341,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BD9741FE2A3B753E003210AA /* toDoListForLesson.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BD9741FF2A3B753E003210AA /* toDoListForLesson.xcdatamodel */,
-			);
-			currentVersion = BD9741FF2A3B753E003210AA /* toDoListForLesson.xcdatamodel */;
-			name = toDoListForLesson.xcdatamodeld;
-			path = ../../../toDoListForLesson/toDoListForLesson.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BDD82D272A377470007048F2 /* Project object */;
 }
