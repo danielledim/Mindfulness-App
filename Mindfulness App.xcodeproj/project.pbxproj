@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52422A38F888003B1D2F /* AdvicePage.swift */; };
 		7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D52442A38F8B2003B1D2F /* VentPage.swift */; };
+		BD07A0FD2A3CB26900BA2199 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07A0FC2A3CB26900BA2199 /* NewToDoView.swift */; };
+		BD07A1012A3CB28B00BA2199 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07A1002A3CB28B00BA2199 /* ToDoItem.swift */; };
 		BD8357142A3BBC9F0009F0BD /* AboutUsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8357132A3BBC9F0009F0BD /* AboutUsPage.swift */; };
 		BD8357162A3BBCAF0009F0BD /* ToDoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8357152A3BBCAF0009F0BD /* ToDoPage.swift */; };
 		BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD82D322A377470007048F2 /* Mindfulness_AppApp.swift */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		7B6D52422A38F888003B1D2F /* AdvicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicePage.swift; sourceTree = "<group>"; };
 		7B6D52442A38F8B2003B1D2F /* VentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentPage.swift; sourceTree = "<group>"; };
+		BD07A0FC2A3CB26900BA2199 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD07A1002A3CB28B00BA2199 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		BD8357132A3BBC9F0009F0BD /* AboutUsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsPage.swift; sourceTree = "<group>"; };
 		BD8357152A3BBCAF0009F0BD /* ToDoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPage.swift; sourceTree = "<group>"; };
 		BDD82D2F2A377470007048F2 /* Mindfulness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +67,8 @@
 				7B6D52442A38F8B2003B1D2F /* VentPage.swift */,
 				BD8357132A3BBC9F0009F0BD /* AboutUsPage.swift */,
 				BD8357152A3BBCAF0009F0BD /* ToDoPage.swift */,
+				BD07A0FC2A3CB26900BA2199 /* NewToDoView.swift */,
+				BD07A1002A3CB28B00BA2199 /* ToDoItem.swift */,
 				BDD82D362A377471007048F2 /* Assets.xcassets */,
 				BDD82D382A377471007048F2 /* Preview Content */,
 			);
@@ -147,9 +153,11 @@
 			files = (
 				BD8357142A3BBC9F0009F0BD /* AboutUsPage.swift in Sources */,
 				BDD82D352A377470007048F2 /* ContentView.swift in Sources */,
+				BD07A0FD2A3CB26900BA2199 /* NewToDoView.swift in Sources */,
 				7B6D52432A38F888003B1D2F /* AdvicePage.swift in Sources */,
 				BDD82D332A377470007048F2 /* Mindfulness_AppApp.swift in Sources */,
 				BD8357162A3BBCAF0009F0BD /* ToDoPage.swift in Sources */,
+				BD07A1012A3CB28B00BA2199 /* ToDoItem.swift in Sources */,
 				7B6D52452A38F8B2003B1D2F /* VentPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
