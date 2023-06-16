@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var randomInt = 0
-    @State private var quote = ""
+    @State private var quote = "\"All your dreams can come true if you have the courage to purse them\" - Walt Disney"
     func randomQuote(){
         randomInt = Int.random(in: 1..<5)
         if randomInt == 1{
@@ -25,10 +25,8 @@ struct ContentView: View {
         }
     }
     var body: some View {
-        
-        VStack {
-            
-            NavigationStack {
+        NavigationStack {
+            VStack {
                 ZStack{
                     Color(red: 0.675, green: 0.694, blue: 0.839)
                         .ignoresSafeArea()
@@ -48,11 +46,11 @@ struct ContentView: View {
                         
                        
                         Button(action: randomQuote) {
-                            Text("Generate Quote")
-                                .font(.title)
+                            Text("Generate New Quote")
+                                .font(.title2)
                                 .padding()
                                 .fontWeight(.heavy)
-                                .foregroundColor(Color(red: 0.5098039215686274, green: 0.5803921568627451, blue: 0.7686274509803922))
+                                .foregroundColor(Color(red: 0.36, green: 0.4, blue: 0.68))
                         }
                         Text(quote)
                             .fontWeight(.semibold)
@@ -66,21 +64,53 @@ struct ContentView: View {
                         
                             
 
-                        NavigationLink(destination: AdvicePage()) {Text ("Launch")
-                                .font(.largeTitle)
-                                .fontWeight(.bold)
-                                .foregroundColor(Color.black)
-                                .padding()
-                                .background(Color.white)
-                                .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                        }
+                    
+                        
                         
                     }
                     
                 }
-               
+                       
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .status){
+                    NavigationLink(destination: AdvicePage()) {
+                        Text("Advice")
+                            .font(.subheadline)
+                            .padding()
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color(red: 0.36, green: 0.4, blue: 0.68))
+                    }
+                    NavigationLink(destination: VentPage()) {
+                        Text("Vent")
+                            .font(.subheadline)
+                            .padding()
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color(red: 0.36, green: 0.4, blue: 0.68))
+                    }
+                    NavigationLink(destination: ToDoPage()) {
+                        Text("Productivity")
+                            .font(.subheadline)
+                            .padding()
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color(red: 0.36, green: 0.4, blue: 0.68))
+                    }
+                    NavigationLink(destination: AboutUsPage()) {
+                        Text("About Us")
+                            .font(.subheadline)
+                            .padding()
+                            .fontWeight(.heavy)
+                            .foregroundColor(Color(red: 0.36, green: 0.4, blue: 0.68))
+                            .padding(.trailing, 13.0)
+                    }
+                    
+                    
+                }
+                
+
             }
         }
+       
     }
     
     struct ContentView_Previews: PreviewProvider {
